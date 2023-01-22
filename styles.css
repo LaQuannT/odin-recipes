@@ -7,6 +7,7 @@ body {
   font-family: monospace;
   font-style: italic;
   color: #ECECF4;
+  gap: 4em;
 }
 
 h1 {
@@ -70,4 +71,8 @@ strong {
 
 .subHead {
   text-align: center;
+}
+
+.container {
+  gap: 2em;
 }
