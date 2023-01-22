@@ -1,0 +1,42 @@
+body {
+  background-color: #444c4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: monospace;
+  font-style: italic;
+  color: #ECECF4;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+p{
+  font-size: larger;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+  font-size: 1.5em;
+  
+}
+
+a {
+  color:  #ECECF4;
+  text-decoration: none;
+}
+
+.chefs-hat {
+  width: 500px;
+  height: auto;
+}
