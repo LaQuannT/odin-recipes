@@ -19,6 +19,7 @@ h2 {
 
 p{
   font-size: larger;
+  padding-left: 1em;
 }
 
 ul {
@@ -36,7 +37,37 @@ a {
   text-decoration: none;
 }
 
+strong {
+  font-size: 2em;
+}
+
+.header {
+  font-size: x-large;
+}
+
 .chefs-hat {
   width: 500px;
   height: auto;
+}
+
+.food {
+  width: 600px;
+  height: auto;
+  border-radius: 6px;
+  border-style: outset;
+  border-width: 2px;
+  border-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.subHead {
+  text-align: center;
 }
